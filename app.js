@@ -38,7 +38,7 @@ app.post('/cadastro-filme', async (req, res) => {
       elenco: req.body.elenco,
       duracao: req.body.duracao,
       classificacaoEtaria: req.body.classificacaoEtaria,
-      sinopse: req.body.sinopse,
+      sinopse: req.body.sinopse
     });
     res.status(201).json(filme);
   } catch (error) {
