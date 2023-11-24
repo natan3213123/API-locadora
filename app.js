@@ -9,7 +9,7 @@ const port = process.env.PORT || 3000;
 app.use(bodyParser.json());
 app.use(cors());
 
-const sequelize = new Sequelize('postgres://api_locadora_user:jUXejYo9kNX1N1TKPtLXxFfUWJ80tDCU@dpg-clgfdj714gps73b1pkt0-a/api_locadora', {
+const sequelize = new Sequelize('postgres://locadorabd_user:rIuO8BobMpmuOd6PUYwlmHQHCrtBHwC5@dpg-clggs7714gps73b1tv30-a/locadorabd', {
   dialect: 'postgres',
 });
 
