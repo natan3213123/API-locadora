@@ -1,14 +1,14 @@
 {
   "development": {
-    "url": "postgres://api_locadora_user:jUXejYo9kNX1N1TKPtLXxFfUWJ80tDCU@dpg-clgfdj714gps73b1pkt0-a/api_locadora",
+    "url": "postgres://locadorabd_user:rIuO8BobMpmuOd6PUYwlmHQHCrtBHwC5@dpg-clggs7714gps73b1tv30-a/locadorabd",
     "dialect": "postgres"
   },
   "test": {
-    "url": "postgres://api_locadora_user:jUXejYo9kNX1N1TKPtLXxFfUWJ80tDCU@dpg-clgfdj714gps73b1pkt0-a/api_locadora",
+    "url": "postgres://locadorabd_user:rIuO8BobMpmuOd6PUYwlmHQHCrtBHwC5@dpg-clggs7714gps73b1tv30-a/locadorabd",
     "dialect": "postgres"
   },
   "production": {
-    "url": "postgres://api_locadora_user:jUXejYo9kNX1N1TKPtLXxFfUWJ80tDCU@dpg-clgfdj714gps73b1pkt0-a/api_locadora",
+    "url": "postgres://locadorabd_user:rIuO8BobMpmuOd6PUYwlmHQHCrtBHwC5@dpg-clggs7714gps73b1tv30-a/locadorabd",
     "dialect": "postgres"
   }
 }
