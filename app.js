@@ -23,7 +23,7 @@ const Filme = sequelize.define('Filme', {
   elenco: DataTypes.STRING,
   duracao: DataTypes.STRING,
   classificacaoEtaria: DataTypes.STRING,
-  sinopse: DataTypes.STRING,
+  sinopse: DataTypes.STRING
 });
 
 app.post('/cadastro-filme', async (req, res) => {
